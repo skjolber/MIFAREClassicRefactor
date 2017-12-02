@@ -1,0 +1,165 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+        
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+    
+
+<LinearLayout
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:background="@drawable/button"
+  android:layout_margin="10sp"
+  >
+	
+   	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/sector"
+		/>
+    
+    <AutoCompleteTextView
+        android:id="@+id/sectorValue"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+        android:scrollHorizontally="true"
+        android:inputType="number"
+        android:hint="@string/sectorHint"
+        android:gravity="fill_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:completionThreshold="1"
+         />
+	
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/aKey"
+		/>
+
+	<Spinner
+        android:id="@+id/aKeyValue"
+		android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         />
+	
+	<!--  	    
+    <AutoCompleteTextView
+        android:id="@+id/aKeyValue"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+        android:scrollHorizontally="true"
+        android:inputType="text"
+        android:hint="@string/keyAHint"
+        android:gravity="fill_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:completionThreshold="1"
+        />
+    -->
+    	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/bKey"
+		/>
+
+    	<Spinner
+        android:id="@+id/bKeyValue"
+		android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         />
+		
+    	<!-- 
+    <AutoCompleteTextView
+        android:id="@+id/bKeyValue"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+        android:scrollHorizontally="true"
+        android:inputType="text"
+        android:hint="@string/keyBHint"
+        android:gravity="fill_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:completionThreshold="1"
+        />
+		    -->
+    	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/accessBitsTrailer"
+		/>    
+
+    	<LinearLayout
+		  android:orientation="horizontal"
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content"
+		  >
+    	
+		    <AutoCompleteTextView
+		        android:id="@+id/trailerAccessBitsValue"
+				android:layout_width="0dp"
+				android:layout_weight="1"
+				android:layout_height="wrap_content"
+		        android:scrollHorizontally="true"
+		        android:inputType="number"
+		        android:hint="@string/accessBitsTrailer"
+		        android:gravity="fill_horizontal"
+		        android:textAppearance="?android:attr/textAppearanceMedium"
+		        android:completionThreshold="1"
+		        />
+		    
+	    	    <Button
+		     android:layout_height="wrap_content"
+		     android:layout_width="wrap_content"
+		     android:onClick="selectTrailerAccessBits"
+		     android:background="@android:color/transparent"
+		     android:drawableLeft="@android:drawable/ic_menu_manage"
+			 android:gravity="left|center_vertical" 
+		     />
+		    
+		</LinearLayout>
+		
+    	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/accessBitsData"
+		/>    
+	    
+    	<LinearLayout
+		  android:orientation="horizontal"
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content"
+		  >
+	
+	  <AutoCompleteTextView
+	        android:id="@+id/dataAccessBitsValue"
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+	        android:scrollHorizontally="true"
+	        android:inputType="number"
+	        android:hint="@string/accessBitsData"
+	        android:gravity="fill_horizontal"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:completionThreshold="1"
+	        />
+	  
+	  	    <Button
+		     android:layout_height="wrap_content"
+		     android:layout_width="wrap_content"
+		     android:onClick="selectDataAccessBits"
+		     android:drawableLeft="@android:drawable/ic_menu_manage"
+		     android:background="@android:color/transparent"
+			 android:gravity="left|center_vertical" 
+		     />
+	  
+		</LinearLayout>	    
+	   
+    	
+</LinearLayout>
+
+</RelativeLayout>

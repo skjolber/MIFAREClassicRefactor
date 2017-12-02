@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:shrinkColumns="2" 
+ 		>
+ 	<TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+				android:textColor="@color/records"
+				android:text="@string/sector"
+				android:textStyle="bold"
+                />
+           
+            <TextView
+                android:padding="3dip"
+        	    android:id="@+id/sectorValue"
+				android:textColor="@color/records"
+				android:textStyle="bold"	
+				android:gravity="right"			
+            />
+        </TableRow>   	
+    
+       <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+				android:textColor="@color/records"
+				android:text="@string/aKey"
+				android:textStyle="bold"
+                />
+           
+            <TextView
+                android:padding="3dip"
+        	    android:id="@+id/aKeyValue"
+				android:textColor="@color/records"
+				android:textStyle="bold"	
+				android:gravity="right"			
+            />
+        </TableRow>   
+        
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+				android:textColor="@color/records"
+				android:text="@string/bKey"
+				android:textStyle="bold"
+                />
+           
+            <TextView
+                android:padding="3dip"
+        	    android:id="@+id/bKeyValue"
+				android:textColor="@color/records"
+				android:textStyle="bold"	
+				android:gravity="right"			
+            />
+        </TableRow>  
+        
+ 
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+				android:textColor="@color/records"
+				android:textStyle="bold"
+				android:text="@string/accessBitsTrailer"
+                />
+           
+            <TextView
+                android:padding="3dip"
+        	    android:id="@+id/accessBitsTrailerValue"
+				android:textColor="@color/records"
+				android:textStyle="bold"	
+				android:gravity="right"			
+            />
+        </TableRow>   
+        
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+				android:textColor="@color/records"
+				android:id="@+id/key"
+				android:textStyle="bold"
+				android:text="@string/accessBitsData"
+                />
+           
+            <TextView
+                android:padding="3dip"
+        	    android:id="@+id/accessBitsDataValue"
+				android:textColor="@color/records"
+				android:textStyle="bold"	
+				android:gravity="right"			
+            />
+        </TableRow>           
+        
+</TableLayout>

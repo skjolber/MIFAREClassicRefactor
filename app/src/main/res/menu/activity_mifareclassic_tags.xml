@@ -1,0 +1,32 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android" >
+
+          <item android:id="@+id/menu_add"
+          android:title="@string/add"
+          android:icon="@android:drawable/ic_menu_add"
+          app:showAsAction="always"
+           />
+          
+          <item android:id="@+id/menu_keys"
+          android:title="@string/keys"
+          android:icon="@mipmap/ic_menu_login"
+                app:showAsAction="always"/>
+
+            <item android:id="@+id/menu_delete"
+	    	  android:title="@string/delete"
+          	android:icon="@android:drawable/ic_menu_delete"
+                  app:showAsAction="always"
+	       />
+
+            <item android:id="@+id/menu_delete_all"
+	    	  android:title="@string/deleteAllSchemes"
+                  app:showAsAction="never"
+	       />
+
+          <item android:id="@+id/menu_help"
+          android:title="@string/helpMenu"
+          android:icon="@android:drawable/ic_menu_help"
+                app:showAsAction="never"
+           />
+            
+</menu>

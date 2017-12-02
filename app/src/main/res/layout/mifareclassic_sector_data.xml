@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/sectorId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/records"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/block0"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/block1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/block2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/block3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/block4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/block5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/block6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/block7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/block8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/block9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/block10"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/block11"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/block12"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/block13"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/block14"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/block15"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,445 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="10sp"
+    >
+    
+    <ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/button"
+    >
+
+	<TableLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:stretchColumns="4"
+	    android:shrinkColumns="4" 
+	    
+	    >
+
+        <TableRow>
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/read"
+				android:textStyle="bold"
+                />
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/write"
+				android:textStyle="bold"	
+            />
+            <TextView
+                android:padding="3dip"
+                android:text="@string/increment"
+				android:textStyle="bold"	
+            />
+            <TextView
+                android:padding="3dip"
+				android:textStyle="bold"	
+                android:text="@string/decrement"
+            />
+           
+            
+        </TableRow>   
+
+	
+		<View 
+            android:layout_height="2dip" 
+            android:background="@color/cellDivider" 
+            android:layout_width="fill_parent" />
+		
+		<TableRow
+			    android:id="@+id/ac000"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="5dip" 
+		        android:background="@drawable/selector">
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/keyab"
+				android:textStyle="bold"
+				android:layout_span="1"
+                />
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/keyab"
+				android:textStyle="bold"	
+				android:layout_span="1"
+            />
+            <TextView
+                android:padding="3dip"
+                android:text="@string/keyab"
+				android:textStyle="bold"
+				android:layout_span="1"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_span="1"
+                android:padding="3dip"
+                android:text="@string/keyab"
+                android:textStyle="bold" />
+		    
+			<CheckBox
+				 android:id="@+id/checkbox000"
+				 android:layout_width="wrap_content"
+				 android:layout_height="wrap_content"
+			 />
+            
+        </TableRow>   
+        
+		<View 
+            android:layout_height="2dip" 
+            android:background="@color/cellDivider" 
+            android:layout_width="fill_parent" />
+						
+		<TableRow
+			    android:id="@+id/ac010"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="5dip" 
+		        android:background="@drawable/selector">
+            
+            <TextView
+                android:padding="3dip"
+				android:textStyle="bold"
+				android:layout_span="1"
+				android:text="@string/keyab"
+                />
+
+            <TextView
+                android:padding="3dip"
+				android:textStyle="bold"	
+				android:layout_span="1"
+            />
+            <TextView
+                android:padding="3dip"
+				android:textStyle="bold"
+				android:layout_span="1"
+                />
+
+            <TextView
+                android:padding="3dip"
+				android:textStyle="bold"	
+				android:layout_span="1"
+            />
+
+			<CheckBox
+				 android:id="@+id/checkbox010"
+				 android:layout_width="wrap_content"
+				 android:layout_height="wrap_content"
+			 />
+            
+            
+        </TableRow>   
+        
+		<View 
+            android:layout_height="2dip" 
+            android:background="@color/cellDivider" 
+            android:layout_width="fill_parent" />
+						
+						
+		<TableRow
+			    android:id="@+id/ac100"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="5dip" 
+		        android:background="@drawable/selector">
+            
+            <TextView
+                android:padding="3dip"
+				android:textStyle="bold"
+				android:layout_span="1"
+				android:text="@string/keyab" 
+               />
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/keyb"
+				android:textStyle="bold"	
+				android:layout_span="1"
+            />
+            <TextView
+                android:padding="3dip"
+				android:textStyle="bold"
+				android:layout_span="1"
+                />
+
+            <TextView
+                android:padding="3dip"
+				android:textStyle="bold"	
+				android:layout_span="1"
+            />
+
+   			<CheckBox
+				 android:id="@+id/checkbox100"
+				 android:layout_width="wrap_content"
+				 android:layout_height="wrap_content"
+			 />
+            
+        </TableRow>   
+        
+		<View 
+            android:layout_height="2dip" 
+            android:background="@color/cellDivider" 
+            android:layout_width="fill_parent" />
+						
+						
+		<TableRow
+			    android:id="@+id/ac110"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="5dip" 
+		        android:background="@drawable/selector">
+            
+            <TextView
+                android:padding="3dip"
+				android:textStyle="bold"
+				android:text="@string/keyab"
+				android:layout_span="1"
+                />
+
+            <TextView
+                android:padding="3dip"
+				android:textStyle="bold"	
+				android:layout_span="1"
+				android:text="@string/keyb"
+            />
+            <TextView
+                android:padding="3dip"
+				android:text="@string/keyb"
+				android:textStyle="bold"
+				android:layout_span="1"
+                />
+
+            <TextView
+                android:padding="3dip"
+				android:textStyle="bold"	
+				android:layout_span="1"
+				android:text="@string/keyab"
+            />
+
+   			<CheckBox
+				 android:id="@+id/checkbox110"
+				 android:layout_width="wrap_content"
+				 android:layout_height="wrap_content"
+			 />
+            
+        </TableRow>   
+        
+		<View 
+            android:layout_height="2dip" 
+            android:background="@color/cellDivider" 
+            android:layout_width="fill_parent" />
+						
+						
+		<TableRow
+			    android:id="@+id/ac001"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="5dip" 
+		        android:background="@drawable/selector">
+            
+            <TextView
+                android:padding="3dip"
+				android:textStyle="bold"
+				android:layout_span="1"
+				android:text="@string/keyab"
+                />
+
+            <TextView
+                android:padding="3dip"
+				android:textStyle="bold"	
+				android:layout_span="1"
+            />
+            <TextView
+                android:padding="3dip"
+				android:textStyle="bold"
+				android:layout_span="1"
+                />
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/keyab"
+				android:textStyle="bold"	
+				android:layout_span="1"
+            />
+
+   			<CheckBox
+				 android:id="@+id/checkbox001"
+				 android:layout_width="wrap_content"
+				 android:layout_height="wrap_content"
+			 />
+            
+            
+        </TableRow>   
+        
+		<View 
+            android:layout_height="2dip" 
+            android:background="@color/cellDivider" 
+            android:layout_width="fill_parent" />
+						
+						
+		<TableRow
+			    android:id="@+id/ac011"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="5dip" 
+		        android:background="@drawable/selector">
+            
+            <TextView
+                android:padding="3dip"
+				android:textStyle="bold"
+				android:layout_span="1"
+                android:text="@string/keyb"
+                />
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/keyb"
+				android:textStyle="bold"	
+				android:layout_span="1"
+            />
+            <TextView
+                android:padding="3dip"
+				android:textStyle="bold"
+				android:layout_span="1"
+                />
+
+            <TextView
+                android:padding="3dip"
+				android:textStyle="bold"	
+				android:layout_span="1"
+            />
+           
+               			<CheckBox
+				 android:id="@+id/checkbox011"
+				 android:layout_width="wrap_content"
+				 android:layout_height="wrap_content"
+			 />
+        </TableRow>   
+        
+		<View 
+            android:layout_height="2dip" 
+            android:background="@color/cellDivider" 
+            android:layout_width="fill_parent" />
+						
+						
+		<TableRow
+			    android:id="@+id/ac101"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="5dip" 
+		        android:background="@drawable/selector">
+            
+            <TextView
+                android:padding="3dip"
+				android:textStyle="bold"
+                android:text="@string/keyb"
+				android:layout_span="1"
+                />
+
+            <TextView
+                android:padding="3dip"
+				android:textStyle="bold"	
+				android:layout_span="1"
+            />
+            <TextView
+                android:padding="3dip"
+				android:textStyle="bold"
+				android:layout_span="1"
+                />
+
+            <TextView
+                android:padding="3dip"
+				android:textStyle="bold"	
+				android:layout_span="1"
+            />
+   
+   			<CheckBox
+				 android:id="@+id/checkbox101"
+				 android:layout_width="wrap_content"
+				 android:layout_height="wrap_content"
+			 />
+            
+        </TableRow>   
+        <View 
+            android:layout_height="2dip" 
+            android:background="@color/cellDivider" 
+            android:layout_width="fill_parent" />
+        
+		<TableRow
+			    android:id="@+id/ac111"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="5dip" 
+		        android:background="@drawable/selector">
+ 
+				     <TextView
+                android:padding="3dip"
+                android:layout_width="fill_parent"
+				android:textStyle="bold"	
+				android:text="@string/mifareClassicBlockOperations"
+				android:layout_span="4"
+            />		
+			<CheckBox
+				 android:id="@+id/checkbox111"
+				 android:layout_width="wrap_content"
+				 android:layout_height="wrap_content"
+			 />
+            
+        </TableRow> 		
+		
+
+		<View 
+            android:layout_height="2dip" 
+            android:background="@color/cellDivider" 
+            android:layout_width="fill_parent" />
+
+		<TableRow
+			    android:id="@+id/acxxx"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:padding="5dip" 
+		        >		
+		
+			 <TextView
+                android:padding="3dip"
+                android:layout_height="wrap_content"
+				android:layout_span="4"
+				android:textStyle="bold"	
+				android:text="@string/mifareClassicCopySource"
+            />				
+            
+			<CheckBox
+				 android:id="@+id/checkboxxxx"
+				 android:layout_width="wrap_content"
+				 android:layout_height="wrap_content"
+			 />
+        </TableRow>   		
+					
+		<View 
+            android:layout_height="2dip" 
+            android:background="@color/cellDivider" 
+            android:layout_width="fill_parent" />
+											
+  </TableLayout>       
+ </ScrollView>
+</LinearLayout>
+</RelativeLayout>
