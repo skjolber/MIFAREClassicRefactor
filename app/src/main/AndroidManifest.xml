@@ -8,12 +8,12 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme"
-        android:name="com.skjolberg.nfc.clone.MainApplication"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+        android:name="com.skjolberg.nfc.refactor.MainApplication"
         >
 
         <activity
-            android:name="com.skjolberg.nfc.clone.mifareclassic.MifareClassicTagActivity"
+            android:name="com.skjolberg.nfc.refactor.mifareclassic.MifareClassicTagActivity"
             android:label="@string/mifareClassicAuthorizationSchemes"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize"
             android:screenOrientation="portrait"
@@ -30,21 +30,21 @@
         </activity>
 
         <activity
-            android:name="com.skjolberg.nfc.clone.mifareclassic.MifareClassicKeyActivity"
+            android:name="com.skjolberg.nfc.refactor.mifareclassic.MifareClassicKeyActivity"
             android:label="@string/mifareClassicAuthorizationSchemeKeys"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize"
             android:screenOrientation="portrait"
             />
 
         <activity
-            android:name="com.skjolberg.nfc.clone.mifareclassic.MifareClassicAccessConditionActivity"
+            android:name="com.skjolberg.nfc.refactor.mifareclassic.MifareClassicAccessConditionActivity"
             android:label="@string/mifareClassicAuthorizationSchemeKeys"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize"
             android:screenOrientation="portrait"
             />
 
         <activity
-            android:name="com.skjolberg.nfc.clone.mifareclassic.MifareClassicSectorActivity"
+            android:name="com.skjolberg.nfc.refactor.mifareclassic.MifareClassicSectorActivity"
             android:label="@string/mifareClassicSectorTitle"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize"
             android:screenOrientation="portrait"

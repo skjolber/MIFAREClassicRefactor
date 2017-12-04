@@ -1,206 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">NFC Tag Cloner</string>
-    <string name="menu_settings">Settings</string>
-    <string name="androidApplication">Android Application</string>
-    <string name="androidApplicationPackageName">Package name</string>
+    <string name="app_name">Mifare Classic Refactor</string>
 
-    <string name="absoluteURI">Absolute URI</string>
-    
-    <string name="action">Action</string>
-    <string name="actionAction">Action</string>
-    
-    <string name="alternativeCarrier">Alternative Carrier</string>
-    <string name="alternativeCarrierCarrierPowerState">Carrier power state</string>
-    <string name="alternativeCarrierCarrierDataReference">Carrier data reference</string>
-    <string name="alternativeCarrierAuxiliaryDataReferences">Auxiliary data references</string>
-    
-    <string name="empty">Empty</string>
-    <string name="reserved">Reserved</string>
-    <string name="unchanged">Unchanged</string>
-
-    <string name="external">External</string>
-    <string name="domain">Domain</string>
-    <string name="type">Type</string>
-    <string name="data">Data</string>
-    <string name="dataSize">%d bytes</string>
-    
-    <string name="genericControl">Generic Control</string>
-    <string name="genericControlConfigurationByte">Configuration byte</string>
-    <string name="genericControlTarget">Target</string>
-    <string name="genericControlAction">Action</string>
-    <string name="genericControlData">Data</string>
-    <string name="genericControlDataRecords">%d data records</string>
-    
-    <string name="handoverCarrier">Handover Carrier</string>
-    <string name="handoverCarrierCarrierTypeFormat">Carrier type format</string>
-    <string name="handoverCarrierCarrierType">Carrier type</string>
-    <string name="handoverCarrierCarrierData">Carrier data</string>
-    <string name="handoverCarrierCarrierDataValue">%d bytes</string>
-    
-    <string name="handoverRequest">Handover Request</string>
-    <string name="handoverRequestMajorVersion">Major version</string>
-    <string name="handoverRequestMinorVersion">Minor version</string>
-    <string name="handoverRequestCollisionResolution">Collision resolution</string>
-    <string name="handoverRequestAlternativeCarriers">Alternative carriers</string>
-    
-    <string name="handoverSelect">Handover Select</string>
-    <string name="handoverSelectMajorVersion">Major version</string>
-    <string name="handoverSelectMinorVersion">Minor version</string>
-    <string name="handoverSelectAlternativeCarriers">Alternative carriers</string>
-    <string name="handoverSelectError">Error</string>
-
-    <string name="mimemedia">Mimemedia</string>
-    <string name="mimemediaMimetype">Mimetype</string>
-    <string name="mimemediaSize">Payload size</string>
-    
-    <string name="smartPoster">Smart Poster</string>
-    <string name="smartPosterTitle">Title</string>
-    <string name="smartPosterAction">Action</string>
-    <string name="smartPosterURI">URI</string>
-    
-    <string name="text">Text</string>
-    <string name="textMessage">Message</string>
-    <string name="textEncoding">Encoding</string>
-    <string name="textLocale">Locale</string>
-    
-    <string name="unknown">Unknown</string>
-    
-    <string name="wellknownURI">Well-known URI</string>
-    
-    <string name="payloadSize">Payload size</string>
-    
-    <string name="signature">Signature</string>
-    <string name="signatureVersion">Version</string>
-    <string name="signatureType">Type</string>
-    <string name="signatureURI">URI</string>
-    <string name="signatureEmbeddedValue">Embedded value</string>
-    <string name="signatureCertificateFormat">Certificate format</string>
-    <string name="signatureCertificateChainLength">Certificate chain length</string>
-    <string name="signatureCertificateChainURI">Certificate chain URI</string>
-    
-    <string name="uri">URI</string>
-    <string name="uriContentType">Content-type</string>
-    <string name="uriContentSize">Content-size</string>
-    <string name="size">%d bytes</string>
-    
-    <string name="nfcAvailableEnabled">NFC available and enabled.</string>
     <string name="nfcAvailableDisabled">NFC available but disabled.</string>
-    <string name="nfcBeamAvailableEnabled">Beam enabled.</string>
-    <string name="nfcBeamAvailableDisabled">Beam disabled.</string>
-    <string name="nfcBeamed">Message beamed.</string>
     <string name="noNfcMessage">NFC is not available.</string>
 
     <string name="nfcSettingEnabled">NFC enabled in settings.</string>
     <string name="nfcSettingDisabled">NFC disabled in settings.</string>
-    
-    <string name="readEmptyMessage">Read empty message.</string>
-    <string name="readNonNDEFMessage">Read non-NDEF message.</string>
-    <string name="readUnparsableNDEFMessage">Read NDEF message but was unable to parse.</string>
-    <string name="readSingleRecordNDEFMessage">Read single-record NDEF message.</string>
-    <string name="readMultipleRecordNDEFMessage">Read multi-record NDEF message.</string>
-    <string name="readEmptyNFCAction">Read empty NFC action.</string>
-    
-    <string name="tagTooSmallMessage">Message size %1$d bytes exceeds tag capacity of %2$d bytes.</string>
 
-    <string name="writer">Tag writer</string>
-    <string name="reader">Reader</string>
-    <string name="beamer">Beam writer</string>
-    
-    <string name="rateApp">Rate app in Play store</string>
-    <string name="share">Share</string>
-    <string name="tags">NFC tags</string>
-    <string name="feedback">Developer feedback</string>
-    <string name="oneToOneTitle">One to one</string>
-    <string name="oneToOneDescription">Read one tag, write one tag.</string>
-    <string name="oneToManyTitle">One to many</string>
-    <string name="oneToManyDescription">Read one tag, write many tags.</string>
-    <string name="title">Select clone mode:</string>
-    <string name="noModeRead">Read source tag. Select clone mode to continue.</string>
-    
-    <string name="oneToOneAppTitle">One to one mode</string>
-    <string name="oneToManyAppTitle">One to many mode</string>
-    <string name="emailAppTitle">Email mode</string>
-    <string name="emailTitle">Email tag</string>
-    <string name="emailDescription">Read a tag, send as email attachment.</string>
-    
-    <string name="scanSource">Scan source tag</string>
-    <string name="scanDestination">Scan target tag</string>
-
-    <string name="from">Source</string>
-    <string name="to">Target</string>
-    
-    <string name="nfc_settings">NFC settings</string>
-    <string name="nfc_enable">Open NFC settings</string>
-    <string name="nfc_cancel">Ignore</string>
-
-    <string name="counter">%s</string>
-    
-    <string name="unableToWriteTagTagLost">Tag lost - please try again.</string>
     <string name="helpMenu">Help</string>
-    
-    <string name="helpTitle">Help!?</string>
-    <string name="helpMessage">This application copies data from one NFC tag to another NFC tag.\n\nSome tags are write protected and cannot be read and/or written to. Also tag size differs, if payload size exceeds the available space, writing is not possible.</string>
+
     <string name="ok">OK</string>
-    
-    <string name="feedbackSubject">NFC Tag Cloner feedback</string>
-    <string name="noShareClient">Unable to launch Google mail</string>
 
-    <string name="readTagInMainMenu">Read tag file or attachment, select mode to continue.</string>
-    <string name="readTagInSubmenu">Read tag file or attachment.</string>
-    
-    <string name="rememberTags">Remember my tags</string>
-    <string name="rememberingTags">Remember my tags</string>
-    <string name="rememberingTagsMessage">If this feature is enabled, new tags are saved in the tag gallery.</string>
-    <string name="rememberingTagsDisable">Disable</string>
-    <string name="rememberingTagsEnable">Enable</string>
-    
-    <string name="tagGalleryMenu">Tag gallery</string>
-    <string name="tagGallery">Tag Gallery</string>
-    
-    <string name="accessKeys">Mifare Classic keys</string>
-    <string name="authorizationSchemes">Mifare Classic key schemes</string>
-    
-    <string name="tagGalleryEmpty">Tag gallery is empty</string>
-    
-    <string name="rapidNFCTags">RapidNFC Tags</string>
-   	<string name="tagId">Tag ID</string>
-	<string name="timestamp">Timestamp</string>
-	<string name="tagType">Tag type</string>
-	<string name="tagCapacity">Tag capacity</string>
-	<string name="tagPayloadSize">Payload size</string>
-	<string name="tagPayloadType">Payload type</string>
-	<string name="tagPayloadTypeRaw">Raw</string>
-	<string name="tagPayloadTypeNdef">NDEF</string>
+    <string name="delete">Delete</string>
 
-	<string name="swipeTags">Swipe to navigate tags</string>
+    <string name="keys">Keys</string>
 
-	<string name="delete">Delete</string>
-	<string name="deleteAll">Delete all tags</string>
-	<string name="setAs">Select</string>
-	<string name="ndefRecords">NDEF Records:</string>
-	<string name="tagSelected">Tag selected, scan target tag to write.</string>
-    <string name="tagSelectedNoModeRead">Tag selected. Select clone mode to continue.</string>
-		
-    <string name="problem">A problem occoured. Please report this problem via email.</string>
-    <string name="select_mode">Select mode before writing.</string>
-    	
-	<string name="keys">Keys</string>
-	<string name="layouts">Layouts</string>
-	
     <string name="mifareKeyScheme">Mifare Classic key scheme</string>
     <string name="add">Click here to add sector-specific key</string>
-    <string name="name">Name</string>
     <string name="nameHint">Enter name</string>
     <string name="value">Value</string>
     <string name="valueHint">Enter hexadecimal value</string>
     <string name="key">Key</string>
     <string name="a">Default A key</string>
     <string name="b">Default B key</string>
-    <string name="keyAHint">Key A in hex</string>
-    <string name="keyBHint">Key B in hex</string>
-    
+
     <string name="aKey">A key</string>
     <string name="bKey">B key</string>
     
@@ -216,15 +41,11 @@
     <string name="mifareClassicAuthorizationSchemeTitle">Mifare Classic refactor schemes</string>
     <string name="mifareClassicAuthorizationSchemeMessage">Welcome! This tool assists you in changing Mifare Classic authorization keys and access conditions.</string>
 
-    <string name="mifareClassicAuthorizationSchemeClear">Clear Mifare Classic scheme</string>
-    
-    <string name="mifareClassicAuthorizationSchemeSelected">Mifare Classic scheme \'%s\' enabled</string>
     <string name="mifareClassicAuthorizationSchemes">Refactor schemes</string>
     <string name="mifareClassicAuthorizationSchemeKeys">Mifare Classic keys</string>
    	<string name="swipeAuthorizationSchemes">Swipe to navigate authorization schemes</string>
    	<string name="deleteAllSchemes">Delete all schemes</string>
-   	
-    <string name="useDefault">Use defaults</string>
+
     <string name="mifareClassicKeyDefault">Default key</string>
     <string name="mifareClassicKeyNfcForumDefault">Default NFC Forum key</string>
     <string name="mifareClassicKeyMAD">Mifare application directory key</string>
@@ -238,18 +59,14 @@
     <string name="keya">Key A</string>
     <string name="keyb">Key B</string>
     <string name="keyab">Key A|B</string>
-    <string name="remark">Remark</string>
     <string name="increment">Increment</string>
     <string name="decrement">Decrement,\ntransfer,\nrestore.</string>
 
     <string name="mifareClassicCopySource">Copy from source tag or scheme defaults</string>
-    <string name="mifareClassicNoAccess">Block all read/write operations</string>
     <string name="accessBitsTrailer">Key access bits</string>
     <string name="accessBitsData">Data access bits</string>
     <string name="defaultAccessBitsTrailer">Default key access bits</string>
     <string name="defaultAccessBitsData">Default data access bits</string>
-    <string name="accessBitsTrailerOperations">Key access bit operations</string>
-    <string name="accessBitsDataOperations">Data access bit operations</string>
     <string name="mifareClassicBlockOperations">Block all operations</string>
     
     <string name="save">Save</string>
@@ -262,53 +79,9 @@
     <string name="keySelect">Select key</string>
     <string name="noKey">No key</string>
     <string name="none">None</string>
-    
-    <string name="mifareCompatibility">Mifare Classic write config</string>
-    <string name="mifareCompatibilityScheme">Mifare Classic key scheme</string>
-    <string name="mifareCompatibilityTag">Mifare Classic gallery tag</string>
 
     <string name="mifareClassicBlankSectors">Plus all-zero sectors with same trailer block</string>
     <string name="mifareClassicSectorNumber">Sector %d</string>
-
-    <string name="mifareCompatibilitySchemeName">Mifare Classic key scheme \'%s\'</string>
-    <string name="mifareCompatibilitySchemeNameWriteProtected">Mifare Classic key scheme \'%s\'.\nWARNING: WRITING WILL BE PERMANENT!</string>
-    <string name="mifareCompatibilitySchemeWriteProtected">WARNING: WRITING WILL BE PERMANENT!</string>
-    
-    <string name="mifareCompatibilityTagName">Mifare Classic tag \'%s\' selected.</string>
-
-    <string name="mifareCompatibilityNegative">Mifare Classic key scheme and tag insufficient for writing; %d issues.</string>
-    <string name="mifareCompatibilitySchemeRequired">Your Mifare Classic tag data is incomplete, i.e. only one of two access keys was determined. Supplement with an access scheme fill in the blanks.</string>
-
-    <string name="welcomeTitle">Welcome to NFC Tag Cloner!</string>
-    <string name="welcomeMessage">This app supports ALL tags types using standard NDEF content. In addition, there is low-level support for Mifare Ultralight and Mifare Classic tags.</string>
-    <string name="welcomeMessageNoNXP">This app supports ALL tags types using standard NDEF content. In addition, there is low-level support for Mifare Ultralight and Mifare Classic tags.\n\nNote that your device does not support Mifare Classic tags due to the NFC non-NXP chipset.</string>
-    <string name="orderTags">Order tags</string>
-
-    <string name="unauthorizedTitle">Restricted tag access</string>
-    <string name="unauthorizedMessageRead">Cannot read from this tag, it is protected by a secret key.</string>
-    <string name="unauthorizedMessageWrite">Cannot write to this tag, it is protected by a secret key.</string>
-    
-    <string name="unsupportedTitle">Unsupported tag type</string>
-    <string name="unsupportedMessageRead">Low-level read of this tag type is not supported (yet!).</string>
-    <string name="unsupportedMessageWrite">Low-level write of this tag type is not supported (yet!)</string>
-
-    <string name="unsupportedMifareClassicTitle">Mifare Classic tags</string>
-    <string name="unsupportedMifareClassicMessageRead">Your device\'s NFC chip does not fully support this kind of tag. Devices known to have this issue:\n- Google Nexus 4 and 5\n- Google Nexus 7 (2013 version)\n- Google Nexus 10\n- Samsung Galaxy S4\n- Samsung Galaxy Ace 3\n- Samsung Galaxy Express 2\n- Samsung Galaxy Mega\n- Samsung Galaxy Note 3\n- LG G2\n- LG Optimus L7 II\n- Moto X\n</string>
-
-    <string name="unknownTitle">Unknown tag type</string>
-    <string name="unknownMessageRead">Cannot read from this unknown tag type.</string>
-    <string name="unknownMessageWrite">Cannot write to this unknown tag type.</string>
-    <string name="unknownMessageReadMifareClassic">Cannot read from this unknown tag type.\n\nNote that your device does not support Mifare Classic tags.</string>
-    <string name="unknownMessageWriteMifareClassic">Cannot write to this unknown tag type.\n\nNote that your device does not support Mifare Classic tags.</string>
-
-    <string name="incorrectTitle">Incorrect tag type</string>
-    <string name="incorrectMessage">Unable to perform low-level write, target tag must be same type as source: %s</string>
-
-    <string name="unreadableTitle">Problem accessing tag</string>
-    <string name="unreadableMessage">Unable to read tag. Try again?</string>
-
-    <string name="unwritableTitle">Problem accessing tag</string>
-    <string name="unwritableMessage">Unable to write tag. Try again?</string>
 
     <string name="unrefactorableTitle">Unable to refactor tag</string>
     <string name="unrefactorableMessage">Missing key A for %1$d sectors, key B for %2$d sectors. Access conditions could not be determined for %3$d sectors.</string>
@@ -322,20 +95,6 @@
     <string name="refactorFail">Refactor failed!</string>
 
     <string name="refactorNotPossible">Only Mifare Classic tags can be refactored!</string>
-    
-    <string name="lockedTitle">Problem writing tag</string>
-    <string name="lockedMessage">This tag has been write protected and cannot be written to anymore.</string>
 
-    <string name="mifareClassic">Mifare Classic</string>
-    <string name="mifareUltralight">Mifare Ultralight</string>
 
-    <string name="unformattableTitle">Problem with unformatted tag</string>
-    <string name="unformattableMessage">Unable to write to unformatted tag.</string>
-    <string name="unformattableMessageDesfireEV1">Unable to format Desfire EV1 card. Format the tag using NFC TagWriter first.</string>
-
-    <string name="nxpTagWriter">NFC TagWriter</string>
-        
-    <string name="facebookPage">Facebook page</string>
-    
-        
 </resources>
