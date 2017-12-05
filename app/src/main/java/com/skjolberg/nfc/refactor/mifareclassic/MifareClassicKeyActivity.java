@@ -1,3 +1,21 @@
+/***************************************************************************
+ *
+ * This file is part of the 'NDEF Tools for Android' project at
+ * http://code.google.com/p/ndef-tools-for-android/
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ ****************************************************************************/
 package com.skjolberg.nfc.refactor.mifareclassic;
 
 import java.util.List;
@@ -35,6 +53,9 @@ import android.widget.TextView;
 import com.skjolberg.nfc.refactor.MainApplication;
 import com.skjolberg.nfc.mifareclassic.R;
 
+/**
+ *
+ */
 @SuppressLint("ValidFragment")
 public class MifareClassicKeyActivity extends DialogActivity implements ListView.OnItemClickListener {
  
@@ -81,15 +102,17 @@ public class MifareClassicKeyActivity extends DialogActivity implements ListView
         
         loadPreferences();
     }
-	
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		MenuInflater inflater = getMenuInflater();
-		inflater.inflate(R.menu.activity_mifareclassic_keys, menu);
 
-		return true;
-	}
-    
+//>- Begin refactoring ---- Commented by V. Bobkov 2017-12-05 ----------------------->
+//	@Override
+//	public boolean onCreateOptionsMenu(Menu menu) {
+//		MenuInflater inflater = getMenuInflater();
+//		inflater.inflate(R.menu.activity_mifareclassic_keys, menu);
+//
+//		return true;
+//	}
+//<- End refactoring ----------------------------------------------------------------<
+
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 
@@ -312,34 +335,35 @@ public class MifareClassicKeyActivity extends DialogActivity implements ListView
 	    
 		show(alert);
 	}
-	
-	
-	protected void show(AlertDialog altertDialog) {
-		synchronized(this) {
-			if(alertDialog != null) {
-				alertDialog.cancel();
-			}
-			// create alert dialog
-			this.alertDialog = altertDialog;
-			
-			runOnUiThread(new Runnable() {
-				public void run() {
-					// show it
-					alertDialog.show();
-			}});
-			
-		}
-	}
-	
-	public void hideDialog() {
-		synchronized(this) {
-			if(alertDialog != null) {
-				alertDialog.cancel();
-				alertDialog = null;
-			}
-		}
-	}
-	
+
+//>- Begin refactoring ---- Commented by V. Bobkov 2017-12-05 ----------------------->
+//	protected void show(AlertDialog altertDialog) {
+//		synchronized(this) {
+//			if(alertDialog != null) {
+//				alertDialog.cancel();
+//			}
+//			// create alert dialog
+//			this.alertDialog = altertDialog;
+//
+//			runOnUiThread(new Runnable() {
+//				public void run() {
+//					// show it
+//					alertDialog.show();
+//			}});
+//
+//		}
+//	}
+//
+//	public void hideDialog() {
+//		synchronized(this) {
+//			if(alertDialog != null) {
+//				alertDialog.cancel();
+//				alertDialog = null;
+//			}
+//		}
+//	}
+//<- End refactoring ----------------------------------------------------------------<
+
 	private boolean setValueErrorMessage(final EditText editText) {
 		if(editText.getText().length() > 0) {
 			CharSequence wepPasswordErrorMessage = getMifareKeyErrorMessage(editText.getText().toString());

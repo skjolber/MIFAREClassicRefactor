@@ -16,7 +16,6 @@
  * limitations under the License.
  * 
  ****************************************************************************/
-
 package com.skjolberg.nfc.refactor.mifareclassic;
 
 import android.app.Activity;

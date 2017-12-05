@@ -16,7 +16,6 @@
  * limitations under the License.
  * 
  ****************************************************************************/
-
 package com.skjolberg.nfc.refactor;
 
 import android.app.Activity;
