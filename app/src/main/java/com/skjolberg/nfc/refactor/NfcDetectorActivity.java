@@ -27,6 +27,7 @@ import android.content.IntentFilter;
 import android.content.pm.PackageManager;
 import android.nfc.NfcAdapter;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 
@@ -42,7 +43,7 @@ import android.util.Log;
  *
  */
 
-public abstract class NfcDetectorActivity extends Activity {
+public abstract class NfcDetectorActivity extends AppCompatActivity {
 	
 	/**
      * Broadcast Action: The state of the local NFC adapter has been

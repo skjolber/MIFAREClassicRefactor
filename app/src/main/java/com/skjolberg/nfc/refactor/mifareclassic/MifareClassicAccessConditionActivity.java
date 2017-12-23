@@ -23,6 +23,7 @@ import com.skjolberg.nfc.mifareclassic.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -31,7 +32,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.CheckBox;
  
-public class MifareClassicAccessConditionActivity extends Activity {
+public class MifareClassicAccessConditionActivity extends AppCompatActivity {
 
     private static final String TAG = MifareClassicAccessConditionActivity.class.getName();
     

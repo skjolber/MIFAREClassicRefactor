@@ -24,6 +24,7 @@ import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
@@ -31,7 +32,7 @@ import android.view.animation.DecelerateInterpolator;
 import android.widget.RelativeLayout;
 
 @TargetApi(Build.VERSION_CODES.HONEYCOMB)
-public class RandomGlowActivity extends Activity {
+public class RandomGlowActivity extends AppCompatActivity {
 	
 	RelativeLayout contentView;
 	int noOfRows = 8;
