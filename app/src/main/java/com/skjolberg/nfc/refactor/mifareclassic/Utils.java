@@ -1,4 +1,6 @@
-/*************************************************************************
+package com.skjolberg.nfc.refactor.mifareclassic;
+
+/*
  * Utils.java
  *
  * Copyright (C) 2011 Eric Butler
@@ -18,8 +20,7 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- ************************************************************************/
-package com.skjolberg.nfc.refactor.mifareclassic;
+ */
 
 import android.app.Activity;
 import android.app.AlertDialog;
