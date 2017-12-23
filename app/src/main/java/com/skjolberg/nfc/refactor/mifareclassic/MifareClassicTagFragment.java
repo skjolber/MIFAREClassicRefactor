@@ -72,8 +72,8 @@ public final class MifareClassicTagFragment extends Fragment implements OnItemCl
             if(position >= 0 && position <= 1) {
                 view = mInflater.inflate(R.layout.mifareclassic_tag_key_item, null);
 
-            	TextView key = (TextView) view.findViewById(R.id.key);
-            	TextView value = (TextView) view.findViewById(R.id.value);
+            	TextView key = view.findViewById(R.id.key);
+            	TextView value = view.findViewById(R.id.value);
 
             	MifareClassicKey mifareClassicKey;
                 if(position == 0) {
@@ -91,8 +91,8 @@ public final class MifareClassicTagFragment extends Fragment implements OnItemCl
             } else if(position >= 2 && position <= 3) {
                 view = mInflater.inflate(R.layout.mifareclassic_tag_accessbits_item, null);
 
-            	TextView key = (TextView) view.findViewById(R.id.key);
-            	TextView value = (TextView) view.findViewById(R.id.value);
+            	TextView key = view.findViewById(R.id.key);
+            	TextView value = view.findViewById(R.id.value);
 
             	int accessBits;
                 if(position == 2) {

@@ -10,16 +10,16 @@
         <TableRow>
 
             <TextView
-                android:layout_column="1"
-                android:padding="3dip"
-				android:textColor="@color/records"
 				android:id="@+id/key"
+				android:layout_column="1"
+				android:padding="3dip"
+				android:textColor="@color/records"
 				android:textStyle="bold"
                 />
            
             <TextView
-                android:padding="3dip"
-        	    android:id="@+id/value"
+				android:id="@+id/value"
+				android:padding="3dip"
 				android:textColor="@color/records"
 				android:textStyle="bold"	
 				android:gravity="right"			
