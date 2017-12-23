@@ -101,7 +101,7 @@ public class MifareClassicTagActivity extends NfcDetectorFragmentActivity {
 		
         mAdapter = new MifareClassicTagFragmentAdapter(getSupportFragmentManager(), dataSource);
 
-        mPager = (ViewPager)findViewById(R.id.pager);
+        mPager = findViewById(R.id.pager);
         mPager.setAdapter(mAdapter);
         mPager.setOnPageChangeListener(new MyPageChangeListener()); 
         
